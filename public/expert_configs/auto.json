@@ -1,0 +1,1491 @@
+{
+    "variables": [
+        {
+            "name": "Ширина",
+            "displayName": "Ширина",
+            "possibleValues": [
+                {
+                    "name": "до 40 см",
+                    "displayName": "до 40 см"
+                },
+                {
+                    "name": "от 40 до 50 см",
+                    "displayName": "от 40 до 50 см"
+                },
+                {
+                    "name": "от 50 см",
+                    "displayName": "от 50 см"
+                }
+            ],
+            "question": "",
+            "description": "",
+            "type": 0
+        },
+        {
+            "name": "Глубина",
+            "displayName": "Глубина",
+            "possibleValues": [
+                {
+                    "name": "до 40 см",
+                    "displayName": "до 40 см"
+                },
+                {
+                    "name": "от 40 до 50 см",
+                    "displayName": "от 40 до 50 см"
+                },
+                {
+                    "name": "от 50 см",
+                    "displayName": "от 50 см"
+                }
+            ],
+            "question": "",
+            "description": "",
+            "type": 0
+        },
+        {
+            "name": "Высота",
+            "displayName": "Высота",
+            "possibleValues": [
+                {
+                    "name": "до 40 см",
+                    "displayName": "до 40 см"
+                },
+                {
+                    "name": "от 40 до 50 см",
+                    "displayName": "от 40 до 50 см"
+                },
+                {
+                    "name": "от 50 см",
+                    "displayName": "от 50 см"
+                }
+            ],
+            "question": "",
+            "description": "",
+            "type": 0
+        },
+        {
+            "name": "ТипУстановки",
+            "displayName": "ТипУстановки",
+            "possibleValues": [
+                {
+                    "name": "Встраиваимая",
+                    "displayName": "Встраиваимая"
+                },
+                {
+                    "name": "Отдельностоящая",
+                    "displayName": "Отдельностоящая"
+                }
+            ],
+            "question": "",
+            "description": "",
+            "type": 0
+        },
+        {
+            "name": "Место",
+            "displayName": "Место",
+            "possibleValues": [
+                {
+                    "name": "Много",
+                    "displayName": "Много"
+                },
+                {
+                    "name": "Средне",
+                    "displayName": "Средне"
+                },
+                {
+                    "name": "Мало",
+                    "displayName": "Мало"
+                }
+            ],
+            "question": "Много ли места в квартире?",
+            "description": "Кол-во места важна для определения габаритов",
+            "type": 1
+        },
+        {
+            "name": "ВидСтиралки",
+            "displayName": "ВидСтиралки",
+            "possibleValues": [
+                {
+                    "name": "AEG L 6FBI48 S",
+                    "displayName": "AEG L 6FBI48 S"
+                },
+                {
+                    "name": "Weissgauff WMD 6160 D",
+                    "displayName": "Weissgauff WMD 6160 D"
+                },
+                {
+                    "name": "LG F-2J5NN4W",
+                    "displayName": "LG F-2J5NN4W"
+                },
+                {
+                    "name": "Samsung WW60J3097JWDLP",
+                    "displayName": "Samsung WW60J3097JWDLP"
+                },
+                {
+                    "name": "Bosch WLG 20162",
+                    "displayName": "Bosch WLG 20162"
+                },
+                {
+                    "name": "Siemens WS 12T440",
+                    "displayName": "Siemens WS 12T440"
+                },
+                {
+                    "name": "Indesit IWUC 4105",
+                    "displayName": "Indesit IWUC 4105"
+                },
+                {
+                    "name": "Candy CS4 1051D1/2-07",
+                    "displayName": "Candy CS4 1051D1/2-07"
+                },
+                {
+                    "name": "Candy CST G283DM/1",
+                    "displayName": "Candy CST G283DM/1"
+                },
+                {
+                    "name": "Hotpoint-Ariston RST 702 ST S",
+                    "displayName": "Hotpoint-Ariston RST 702 ST S"
+                },
+                {
+                    "name": "Bosch WLT 24540",
+                    "displayName": "Bosch WLT 24540"
+                },
+                {
+                    "name": "Bosch WLL 24347",
+                    "displayName": "Bosch WLL 24347"
+                },
+                {
+                    "name": "Electrolux PerfectCare 600 EW6S2R27C",
+                    "displayName": "Electrolux PerfectCare 600 EW6S2R27C"
+                },
+                {
+                    "name": "Indesit IWUB 4085",
+                    "displayName": "Indesit IWUB 4085"
+                },
+                {
+                    "name": "Electrolux EW8T3R562",
+                    "displayName": "Electrolux EW8T3R562"
+                },
+                {
+                    "name": "LG ai dd",
+                    "displayName": "LG ai dd"
+                },
+                {
+                    "name": "Hotpoint-Ariston WMTF 501 L",
+                    "displayName": "Hotpoint-Ariston WMTF 501 L"
+                },
+                {
+                    "name": "ATLANT 70С107",
+                    "displayName": "ATLANT 70С107"
+                },
+                {
+                    "name": "ATLANT 50У105-00",
+                    "displayName": "ATLANT 50У105-00"
+                },
+                {
+                    "name": "Ardo 39FL126LX",
+                    "displayName": "Ardo 39FL126LX"
+                }
+            ],
+            "question": "",
+            "description": "",
+            "type": 0
+        },
+        {
+            "name": "Семья",
+            "displayName": "Семья",
+            "possibleValues": [
+                {
+                    "name": "Большая",
+                    "displayName": "Большая"
+                },
+                {
+                    "name": "Маленькая",
+                    "displayName": "Маленькая"
+                },
+                {
+                    "name": "Средняя",
+                    "displayName": "Средняя"
+                }
+            ],
+            "question": "Какая у вас семья?",
+            "description": "Важно для определения объема загрузки",
+            "type": 1
+        },
+        {
+            "name": "Объем загрузки",
+            "displayName": "Объем загрузки",
+            "possibleValues": [
+                {
+                    "name": "до 5 кг",
+                    "displayName": "до 5 кг"
+                },
+                {
+                    "name": "от 5 до 8 кг",
+                    "displayName": "от 5 до 8 кг"
+                },
+                {
+                    "name": "от 8 кг",
+                    "displayName": "от 8 кг"
+                }
+            ],
+            "question": "",
+            "description": "",
+            "type": 0
+        },
+        {
+            "name": "Дети",
+            "displayName": "Дети",
+            "possibleValues": [
+                {
+                    "name": "Да",
+                    "displayName": "Да"
+                },
+                {
+                    "name": "Нет",
+                    "displayName": "Нет"
+                }
+            ],
+            "question": "Есть ли дети в семье?",
+            "description": "Если есть дети важно, чтобы стиралка имела функцию блокировки от случайных нажатий",
+            "type": 1
+        },
+        {
+            "name": "Блокировка",
+            "displayName": "Блокировка",
+            "possibleValues": [
+                {
+                    "name": "Да",
+                    "displayName": "Да"
+                },
+                {
+                    "name": "Нет",
+                    "displayName": "Нет"
+                }
+            ],
+            "question": "",
+            "description": "",
+            "type": 0
+        },
+        {
+            "name": "Бюджет",
+            "displayName": "Бюджет",
+            "possibleValues": [
+                {
+                    "name": "Большой",
+                    "displayName": "Большой"
+                },
+                {
+                    "name": "Средний",
+                    "displayName": "Средний"
+                },
+                {
+                    "name": "Маленький",
+                    "displayName": "Маленький"
+                }
+            ],
+            "question": "Какой бюджет?",
+            "description": "",
+            "type": 1
+        },
+        {
+            "name": "Цена",
+            "displayName": "Цена",
+            "possibleValues": [
+                {
+                    "name": "До 15000 рублей",
+                    "displayName": "До 15000 рублей"
+                },
+                {
+                    "name": "от 15000 до 35000 рублей",
+                    "displayName": "от 15000 до 35000 рублей"
+                },
+                {
+                    "name": "от 35000 рублей",
+                    "displayName": "от 35000 рублей"
+                }
+            ],
+            "question": "",
+            "description": "",
+            "type": 0
+        },
+        {
+            "name": "Сушка",
+            "displayName": "Сушка",
+            "possibleValues": [
+                {
+                    "name": "Да",
+                    "displayName": "Да"
+                },
+                {
+                    "name": "Нет",
+                    "displayName": "Нет"
+                }
+            ],
+            "question": "Нужна ли сушка?",
+            "description": "",
+            "type": 1
+        },
+        {
+            "name": "Контроль уровня пены",
+            "displayName": "Контроль уровня пены",
+            "possibleValues": [
+                {
+                    "name": "Да",
+                    "displayName": "Да"
+                },
+                {
+                    "name": "Нет",
+                    "displayName": "Нет"
+                }
+            ],
+            "question": "Нужен ли контроль уровня пены?",
+            "description": "",
+            "type": 1
+        },
+        {
+            "name": "Отжим",
+            "displayName": "Отжим",
+            "possibleValues": [
+                {
+                    "name": "от 800 до 1200 об/мин",
+                    "displayName": "от 800 до 1200 об/мин"
+                },
+                {
+                    "name": "от 1200 об/мин",
+                    "displayName": "от 1200 об/мин"
+                }
+            ],
+            "question": "",
+            "description": "",
+            "type": 0
+        },
+        {
+            "name": "Тяжелые вещи",
+            "displayName": "Тяжелые вещи",
+            "possibleValues": [
+                {
+                    "name": "Да",
+                    "displayName": "Да"
+                },
+                {
+                    "name": "Нет",
+                    "displayName": "Нет"
+                }
+            ],
+            "question": "Будете стирать тяжелые вещи?",
+            "description": "Важно, чтобы выбрать кол-во об/мин при выжимании",
+            "type": 1
+        },
+        {
+            "name": "Тип загрузки",
+            "displayName": "Тип загрузки",
+            "possibleValues": [
+                {
+                    "name": "Вертикальный",
+                    "displayName": "Вертикальный"
+                },
+                {
+                    "name": "Фронтальный",
+                    "displayName": "Фронтальный"
+                }
+            ],
+            "question": "А какой тип загрузки необходим?",
+            "description": "Возможно есть личные предпочтения, которые нельзя понять из косвенных фактов",
+            "type": 1
+        },
+        {
+            "name": "Защита от протечек",
+            "displayName": "Защита от протечек",
+            "possibleValues": [
+                {
+                    "name": "Да",
+                    "displayName": "Да"
+                },
+                {
+                    "name": "Нет",
+                    "displayName": "Нет"
+                }
+            ],
+            "question": "Нужна ли защита от протечек?",
+            "description": "",
+            "type": 1
+        }
+    ],
+    "rules": [
+        {
+            "name": "Высоты мало",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Мало"
+                }
+            ],
+            "result": {
+                "variableName": "Высота",
+                "valueName": "до 40 см"
+            }
+        },
+        {
+            "name": "Определение Глубины",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Мало"
+                }
+            ],
+            "result": {
+                "variableName": "Глубина",
+                "valueName": "до 40 см"
+            }
+        },
+        {
+            "name": "Определение Ширины",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Мало"
+                }
+            ],
+            "result": {
+                "variableName": "Ширина",
+                "valueName": "до 40 см"
+            }
+        },
+        {
+            "name": "Ширины нормально",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Средне"
+                }
+            ],
+            "result": {
+                "variableName": "Ширина",
+                "valueName": "от 40 до 50 см"
+            }
+        },
+        {
+            "name": "Высоты нормально",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Средне"
+                }
+            ],
+            "result": {
+                "variableName": "Высота",
+                "valueName": "от 40 до 50 см"
+            }
+        },
+        {
+            "name": "Глубины нормально",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Средне"
+                }
+            ],
+            "result": {
+                "variableName": "Глубина",
+                "valueName": "от 40 до 50 см"
+            }
+        },
+        {
+            "name": "Ширины много",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Много"
+                }
+            ],
+            "result": {
+                "variableName": "Ширина",
+                "valueName": "от 50 см"
+            }
+        },
+        {
+            "name": "Высоыт много",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Много"
+                }
+            ],
+            "result": {
+                "variableName": "Высота",
+                "valueName": "от 50 см"
+            }
+        },
+        {
+            "name": "Глубины много",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Много"
+                }
+            ],
+            "result": {
+                "variableName": "Глубина",
+                "valueName": "от 50 см"
+            }
+        },
+        {
+            "name": "Установка 1",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Мало"
+                }
+            ],
+            "result": {
+                "variableName": "ТипУстановки",
+                "valueName": "Встраиваимая"
+            }
+        },
+        {
+            "name": "Установка 2",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Средне"
+                }
+            ],
+            "result": {
+                "variableName": "ТипУстановки",
+                "valueName": "Отдельностоящая"
+            }
+        },
+        {
+            "name": "Установка 3",
+            "reasons": [
+                {
+                    "variableName": "Место",
+                    "valueName": "Много"
+                }
+            ],
+            "result": {
+                "variableName": "ТипУстановки",
+                "valueName": "Отдельностоящая"
+            }
+        },
+        {
+            "name": "Загрузка 1",
+            "reasons": [
+                {
+                    "variableName": "Семья",
+                    "valueName": "Большая"
+                }
+            ],
+            "result": {
+                "variableName": "Объем загрузки",
+                "valueName": "от 8 кг"
+            }
+        },
+        {
+            "name": "Загрузка 2",
+            "reasons": [
+                {
+                    "variableName": "Семья",
+                    "valueName": "Маленькая"
+                }
+            ],
+            "result": {
+                "variableName": "Объем загрузки",
+                "valueName": "до 5 кг"
+            }
+        },
+        {
+            "name": "Загрузка 3",
+            "reasons": [
+                {
+                    "variableName": "Семья",
+                    "valueName": "Средняя"
+                }
+            ],
+            "result": {
+                "variableName": "Объем загрузки",
+                "valueName": "от 5 до 8 кг"
+            }
+        },
+        {
+            "name": "Бюджет 1",
+            "reasons": [
+                {
+                    "variableName": "Бюджет",
+                    "valueName": "Маленький"
+                }
+            ],
+            "result": {
+                "variableName": "Цена",
+                "valueName": "До 15000 рублей"
+            }
+        },
+        {
+            "name": "Бюджет 2",
+            "reasons": [
+                {
+                    "variableName": "Бюджет",
+                    "valueName": "Средний"
+                }
+            ],
+            "result": {
+                "variableName": "Цена",
+                "valueName": "от 15000 до 35000 рублей"
+            }
+        },
+        {
+            "name": "Бюджет 3",
+            "reasons": [
+                {
+                    "variableName": "Бюджет",
+                    "valueName": "Большой"
+                }
+            ],
+            "result": {
+                "variableName": "Цена",
+                "valueName": "от 35000 рублей"
+            }
+        },
+        {
+            "name": "Блокировка 1",
+            "reasons": [
+                {
+                    "variableName": "Дети",
+                    "valueName": "Да"
+                }
+            ],
+            "result": {
+                "variableName": "Блокировка",
+                "valueName": "Да"
+            }
+        },
+        {
+            "name": "Блокировка 2",
+            "reasons": [
+                {
+                    "variableName": "Дети",
+                    "valueName": "Нет"
+                }
+            ],
+            "result": {
+                "variableName": "Блокировка",
+                "valueName": "Нет"
+            }
+        },
+        {
+            "name": "Отжим 1",
+            "reasons": [
+                {
+                    "variableName": "Тяжелые вещи",
+                    "valueName": "Да"
+                }
+            ],
+            "result": {
+                "variableName": "Отжим",
+                "valueName": "от 1200 об/мин"
+            }
+        },
+        {
+            "name": "Отжим 2",
+            "reasons": [
+                {
+                    "variableName": "Тяжелые вещи",
+                    "valueName": "Нет"
+                }
+            ],
+            "result": {
+                "variableName": "Отжим",
+                "valueName": "от 800 до 1200 об/мин"
+            }
+        },
+        {
+            "name": "Стиралка 1",
+            "reasons": [
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Контроль уровня пены",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Фронтальный"
+                },
+                {
+                    "variableName": "ТипУстановки",
+                    "valueName": "Отдельностоящая"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 5 до 8 кг"
+                },
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                },
+                {
+                    "variableName": "Отжим",
+                    "valueName": "от 800 до 1200 об/мин"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Hotpoint-Ariston RST 702 ST S"
+            }
+        },
+        {
+            "name": "Стиралка 9",
+            "reasons": [
+                {
+                    "variableName": "Цена",
+                    "valueName": "До 15000 рублей"
+                },
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "ТипУстановки",
+                    "valueName": "Отдельностоящая"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 5 до 8 кг"
+                },
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Фронтальный"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Bosch WLT 24540"
+            }
+        },
+        {
+            "name": "Стиралка 11",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Нет"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                },
+                {
+                    "variableName": "Защита от протечек",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Сушка",
+                    "valueName": "Нет"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Electrolux PerfectCare 600 EW6S2R27C"
+            }
+        },
+        {
+            "name": "Стиралка 12",
+            "reasons": [
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Фронтальный"
+                },
+                {
+                    "variableName": "Ширина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                },
+                {
+                    "variableName": "Сушка",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Защита от протечек",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Нет"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Indesit IWUB 4085"
+            }
+        },
+        {
+            "name": "Стиралка 13",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "До 15000 рублей"
+                },
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Нет"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "до 5 кг"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Hotpoint-Ariston WMTF 501 L"
+            }
+        },
+        {
+            "name": "Стиралка 14",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "до 5 кг"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Electrolux EW8T3R562"
+            }
+        },
+        {
+            "name": "Стиралка 15",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 8 кг"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Bosch WLL 24347"
+            }
+        },
+        {
+            "name": "Стиралка 18",
+            "reasons": [
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Вертикальный"
+                },
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "ATLANT 70С107"
+            }
+        },
+        {
+            "name": "Стиралка 19",
+            "reasons": [
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Вертикальный"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "До 15000 рублей"
+                },
+                {
+                    "variableName": "Ширина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "до 40 см"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "ATLANT 50У105-00"
+            }
+        },
+        {
+            "name": "Стиралка 2",
+            "reasons": [
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Вертикальный"
+                },
+                {
+                    "variableName": "ТипУстановки",
+                    "valueName": "Отдельностоящая"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                },
+                {
+                    "variableName": "Защита от протечек",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Контроль уровня пены",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Отжим",
+                    "valueName": "от 1200 об/мин"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 8 кг"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 50 см"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Candy CST G283DM/1"
+            }
+        },
+        {
+            "name": "Стиралка 3",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "ТипУстановки",
+                    "valueName": "Встраиваимая"
+                },
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Фронтальный"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "До 15000 рублей"
+                },
+                {
+                    "variableName": "Отжим",
+                    "valueName": "от 800 до 1200 об/мин"
+                },
+                {
+                    "variableName": "Защита от протечек",
+                    "valueName": "Нет"
+                },
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Нет"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "до 5 кг"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Bosch WLG 20162"
+            }
+        },
+        {
+            "name": "Стиралка 4",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "ТипУстановки",
+                    "valueName": "Отдельностоящая"
+                },
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Фронтальный"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 5 до 8 кг"
+                },
+                {
+                    "variableName": "Защита от протечек",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Нет"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                },
+                {
+                    "variableName": "Контроль уровня пены",
+                    "valueName": "Нет"
+                },
+                {
+                    "variableName": "Отжим",
+                    "valueName": "от 800 до 1200 об/мин"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Samsung WW60J3097JWDLP"
+            }
+        },
+        {
+            "name": "Стиралка 5",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "ТипУстановки",
+                    "valueName": "Отдельностоящая"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 8 кг"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 35000 рублей"
+                },
+                {
+                    "variableName": "Сушка",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Защита от протечек",
+                    "valueName": "Да"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "LG F-2J5NN4W"
+            }
+        },
+        {
+            "name": "Стиралка 6",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "До 15000 рублей"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 5 до 8 кг"
+                },
+                {
+                    "variableName": "Отжим",
+                    "valueName": "от 1200 об/мин"
+                },
+                {
+                    "variableName": "Сушка",
+                    "valueName": "Нет"
+                },
+                {
+                    "variableName": "Контроль уровня пены",
+                    "valueName": "Нет"
+                },
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Фронтальный"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Weissgauff WMD 6160 D"
+            }
+        },
+        {
+            "name": "Стиралка 7",
+            "reasons": [
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                },
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Контроль уровня пены",
+                    "valueName": "Нет"
+                },
+                {
+                    "variableName": "Сушка",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Отжим",
+                    "valueName": "от 1200 об/мин"
+                },
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Фронтальный"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 8 кг"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Siemens WS 12T440"
+            }
+        },
+        {
+            "name": "Стиралка 8",
+            "reasons": [
+                {
+                    "variableName": "Цена",
+                    "valueName": "До 15000 рублей"
+                },
+                {
+                    "variableName": "Ширина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "до 40 см"
+                },
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 5 до 8 кг"
+                },
+                {
+                    "variableName": "Отжим",
+                    "valueName": "от 1200 об/мин"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Indesit IWUC 4105"
+            }
+        },
+        {
+            "name": "Стиралка 10",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 35000 рублей"
+                },
+                {
+                    "variableName": "ТипУстановки",
+                    "valueName": "Отдельностоящая"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 8 кг"
+                },
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Сушка",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Контроль уровня пены",
+                    "valueName": "Да"
+                },
+                {
+                    "variableName": "Отжим",
+                    "valueName": "от 1200 об/мин"
+                },
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Фронтальный"
+                },
+                {
+                    "variableName": "Защита от протечек",
+                    "valueName": "Да"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "LG ai dd"
+            }
+        },
+        {
+            "name": "Стиралка 16",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Фронтальный"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "от 5 до 8 кг"
+                },
+                {
+                    "variableName": "Блокировка",
+                    "valueName": "Да"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Candy CS4 1051D1/2-07"
+            }
+        },
+        {
+            "name": "Стиралка 17",
+            "reasons": [
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 40 до 50 см"
+                },
+                {
+                    "variableName": "Объем загрузки",
+                    "valueName": "до 5 кг"
+                },
+                {
+                    "variableName": "Цена",
+                    "valueName": "от 15000 до 35000 рублей"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "AEG L 6FBI48 S"
+            }
+        },
+        {
+            "name": "Стиралка 20",
+            "reasons": [
+                {
+                    "variableName": "Тип загрузки",
+                    "valueName": "Вертикальный"
+                },
+                {
+                    "variableName": "Ширина",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Глубина",
+                    "valueName": "от 50 см"
+                },
+                {
+                    "variableName": "Высота",
+                    "valueName": "от 50 см"
+                }
+            ],
+            "result": {
+                "variableName": "ВидСтиралки",
+                "valueName": "Ardo 39FL126LX"
+            }
+        }
+    ],
+    "targetName": "ВидСтиралки"
+}
